@@ -28,8 +28,8 @@ def find_the_cheese(strings)# code an argument here
   while i < strings.length 
     if strings.include?(cheese_types[i])
       strings[i] 
-    else 
-      nil
+    # else 
+    #   nil
     end
     
     i += 1
