@@ -25,8 +25,8 @@ def find_the_cheese(strings)# code an argument here
   
 
   
-    if strings.include?(cheese_types.find)
-      strings[] 
+    if strings.include?(cheese_types.any?)
+       
     else 
       nil
     end
