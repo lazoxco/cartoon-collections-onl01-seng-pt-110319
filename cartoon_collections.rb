@@ -30,5 +30,8 @@ def find_the_cheese(strings)# code an argument here
       strings[i] 
     else 
       nil
+    end
+    
+    i += 1
   end
 end
